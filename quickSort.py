@@ -1,8 +1,10 @@
 import random
-def swap(nums, i, j):
-    tmp = nums[i]
-    nums[i] = nums[j]
-    nums[j] = tmp
+
+
+def swap(nums, x, y):
+    tmp = nums[x]
+    nums[x] = nums[y]
+    nums[y] = tmp
 
 
 def partition(nums, start, end):
