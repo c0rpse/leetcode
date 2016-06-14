@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f1558a3-cbcd-432b-a72e-63a4166d9e00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11. Container With Most Water.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/240. Search a 2D Matrix II.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/300. Longest Increasing Subsequence.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/75. Sort Colors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/77. Combinations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fabonacci.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/313. Super Ugly Number.py" afterPath="$PROJECT_DIR$/313. Super Ugly Number.py" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode$48__Rotate_Image.coverage" NAME="48. Rotate Image Coverage Results" MODIFIED="1465806235685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$240__Search_a_2D_Matrix_II.coverage" NAME="240. Search a 2D Matrix II Coverage Results" MODIFIED="1465905738885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Fabonacci.coverage" NAME="Fabonacci Coverage Results" MODIFIED="1465916698422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$77__Combinations.coverage" NAME="77. Combinations Coverage Results" MODIFIED="1465912156113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$300__Longest_Increasing_Subsequence.coverage" NAME="300. Longest Increasing Subsequence Coverage Results" MODIFIED="1465915618983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$quickSort.coverage" NAME="quickSort Coverage Results" MODIFIED="1465801475316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -109,11 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="300. Longest Increasing Subsequence.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="300. Longest Increasing Subsequence.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/300. Longest Increasing Subsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+            <state relative-caret-position="285">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fabonacci.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fabonacci.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -124,16 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="287. Find the Duplicate Number.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/287. Find the Duplicate Number.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -163,6 +159,7 @@
         <option value="$PROJECT_DIR$/240. Search a 2D Matrix II.py" />
         <option value="$PROJECT_DIR$/77. Combinations.py" />
         <option value="$PROJECT_DIR$/300. Longest Increasing Subsequence.py" />
+        <option value="$PROJECT_DIR$/Fabonacci.py" />
       </list>
     </option>
   </component>
@@ -231,25 +228,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.300. Longest Increasing Subsequence">
-    <configuration default="false" name="264. Ugly Number II" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/264. Ugly Number II.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Fabonacci">
     <configuration default="false" name="313. Super Ugly Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,6 +297,24 @@
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/300. Longest Increasing Subsequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Fabonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fabonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -531,19 +528,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.264. Ugly Number II" />
-      <item index="1" class="java.lang.String" itemvalue="Python.313. Super Ugly Number" />
-      <item index="2" class="java.lang.String" itemvalue="Python.240. Search a 2D Matrix II" />
-      <item index="3" class="java.lang.String" itemvalue="Python.77. Combinations" />
-      <item index="4" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Python.313. Super Ugly Number" />
+      <item index="1" class="java.lang.String" itemvalue="Python.240. Search a 2D Matrix II" />
+      <item index="2" class="java.lang.String" itemvalue="Python.77. Combinations" />
+      <item index="3" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Fabonacci" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
-        <item index="1" class="java.lang.String" itemvalue="Python.77. Combinations" />
-        <item index="2" class="java.lang.String" itemvalue="Python.240. Search a 2D Matrix II" />
-        <item index="3" class="java.lang.String" itemvalue="Python.313. Super Ugly Number" />
-        <item index="4" class="java.lang.String" itemvalue="Python.264. Ugly Number II" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Fabonacci" />
+        <item index="1" class="java.lang.String" itemvalue="Python.300. Longest Increasing Subsequence" />
+        <item index="2" class="java.lang.String" itemvalue="Python.77. Combinations" />
+        <item index="3" class="java.lang.String" itemvalue="Python.240. Search a 2D Matrix II" />
+        <item index="4" class="java.lang.String" itemvalue="Python.313. Super Ugly Number" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +562,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2625202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -573,7 +570,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3419773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3419773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -732,8 +729,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/300. Longest Increasing Subsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        <state relative-caret-position="285">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fabonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding />
         </state>
       </provider>
