@@ -19,5 +19,5 @@ def fabonacci_recuisive(n):
         return 1
     return fabonacci_recuisive(n-1) + fabonacci_recuisive(n - 2)
 
-print fabonacci_iteration(50)
-print fabonacci_recuisive(50)
+print fabonacci_iteration(5)
+print fabonacci_recuisive(5)
