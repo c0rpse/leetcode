@@ -11,3 +11,5 @@ class Solution(object):
                 squares[i + j**2] = min(squares[i] + 1, squares[i + j**2])
                 j += 1
         return squares[n]
+
+    
