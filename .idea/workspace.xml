@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f1558a3-cbcd-432b-a72e-63a4166d9e00" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode.xcodeproj/project.xcworkspace/xcuserdata/c0rpse.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode.xcodeproj/project.pbxproj" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
@@ -10,7 +11,16 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode/279. Perfect Squares.cpp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode/279. Perfect Squares.hpp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/leetcode/main.cpp" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/162. Find Peak Element.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/215. Kth Largest Element in an Array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/279. Perfect Squares.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/334. Increasing Triplet Subsequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/73. Set Matrix Zeroes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/74. Search a 2D Matrix.py" />
+>>>>>>> 8e4a565616f7a56d3b23aa78e15a86a822ad5d26
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fabonacci.py" afterPath="$PROJECT_DIR$/Fabonacci.py" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
