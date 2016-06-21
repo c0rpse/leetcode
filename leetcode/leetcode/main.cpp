@@ -7,12 +7,11 @@
 //
 
 #include <iostream>
-#include "279. Perfect Squares.hpp"
-
+#include "331. Verify Preorder Serialization of a Binary Tree.hpp"
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    Solution S;
-    auto i = S.numSquares(5);
-    cout<<i<<endl;
+    int a = 0;
+    int b = a;
+    cout<<&a<<&b<<endl;
     return 0;
 }

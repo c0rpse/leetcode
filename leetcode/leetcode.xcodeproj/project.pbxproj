@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB56F2701D17C2AA009AAF59 /* 331. Verify Preorder Serialization of a Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB56F26E1D17C2AA009AAF59 /* 331. Verify Preorder Serialization of a Binary Tree.cpp */; };
 		ABB0E6C01D11661200C0C53C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABB0E6BF1D11661200C0C53C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +24,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ABB0E6BC1D11661200C0C53C /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = leetcode; path = /Users/c0rpse/repos/leetcode/leetcode/build/Debug/leetcode; sourceTree = "<absolute>"; };
+		AB56F26C1D17B9FB009AAF59 /* 274. H-Index.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "274. H-Index.hpp"; sourceTree = "<group>"; };
+		AB56F26E1D17C2AA009AAF59 /* 331. Verify Preorder Serialization of a Binary Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "331. Verify Preorder Serialization of a Binary Tree.cpp"; sourceTree = "<group>"; };
+		AB56F26F1D17C2AA009AAF59 /* 331. Verify Preorder Serialization of a Binary Tree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "331. Verify Preorder Serialization of a Binary Tree.hpp"; sourceTree = "<group>"; };
+		AB56F2721D17D395009AAF59 /* 78. Subsets.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "78. Subsets.hpp"; sourceTree = "<group>"; };
+		AB56F2751D17E661009AAF59 /* 33. Search in Rotated Sorted Array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "33. Search in Rotated Sorted Array.hpp"; sourceTree = "<group>"; };
 		ABB0E6BF1D11661200C0C53C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ABB0E6C71D11667F00C0C53C /* 279. Perfect Squares.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "279. Perfect Squares.hpp"; sourceTree = "<group>"; };
+		ABB0E6CA1D1271D500C0C53C /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB0E6CD1D12721F00C0C53C /* 129. Sum Root to Leaf Numbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "129. Sum Root to Leaf Numbers.hpp"; sourceTree = "<group>"; };
+		ABB0E6D01D1287E300C0C53C /* 80. Remove Duplicates from Sorted Array II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "80. Remove Duplicates from Sorted Array II.h"; sourceTree = "<group>"; };
+		ABB0E6D11D12FACD00C0C53C /* findLongestPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findLongestPalindrome.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB0E6BE1D11661200C0C53C /* leetcode */,
+				ABB0E6CA1D1271D500C0C53C /* leetcode */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +61,14 @@
 			children = (
 				ABB0E6BF1D11661200C0C53C /* main.cpp */,
 				ABB0E6C71D11667F00C0C53C /* 279. Perfect Squares.hpp */,
+				ABB0E6CD1D12721F00C0C53C /* 129. Sum Root to Leaf Numbers.hpp */,
+				ABB0E6D01D1287E300C0C53C /* 80. Remove Duplicates from Sorted Array II.h */,
+				ABB0E6D11D12FACD00C0C53C /* findLongestPalindrome.h */,
+				AB56F26C1D17B9FB009AAF59 /* 274. H-Index.hpp */,
+				AB56F26E1D17C2AA009AAF59 /* 331. Verify Preorder Serialization of a Binary Tree.cpp */,
+				AB56F26F1D17C2AA009AAF59 /* 331. Verify Preorder Serialization of a Binary Tree.hpp */,
+				AB56F2721D17D395009AAF59 /* 78. Subsets.hpp */,
+				AB56F2751D17E661009AAF59 /* 33. Search in Rotated Sorted Array.hpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -72,7 +90,7 @@
 			);
 			name = leetcode;
 			productName = leetcode;
-			productReference = ABB0E6BC1D11661200C0C53C /* leetcode */;
+			productReference = ABB0E6CA1D1271D500C0C53C /* leetcode */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -111,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB56F2701D17C2AA009AAF59 /* 331. Verify Preorder Serialization of a Binary Tree.cpp in Sources */,
 				ABB0E6C01D11661200C0C53C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +251,7 @@
 				ABB0E6C51D11661200C0C53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
